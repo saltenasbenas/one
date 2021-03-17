@@ -46,7 +46,7 @@ class ClassicRoll extends Component {
                     <button className="myButton" onClick={() => this.doFinish(8)}>Finish</button> 
                 </div>
                 <div className="box" style={{ borderColor: this.state.color1 }}>
-                <Dice value={this.state.random}></Dice>
+                <Dice valueDice={this.state.random}></Dice>
                 
                 </div>
             </div>

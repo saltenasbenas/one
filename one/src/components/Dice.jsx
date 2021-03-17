@@ -8,7 +8,7 @@ import dice6 from '../css/dice_6.png';
 
  class Dice extends Component {
     render(){
-    switch (this.props.value) {
+    switch (this.props.valueDice) {
         case 1:   return (<div><img src={dice1}/></div>);
         case 2:   return (<div><img src={dice2}/></div>);
         case 3:   return (<div><img src={dice3}/></div>);
