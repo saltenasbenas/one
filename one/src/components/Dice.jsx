@@ -15,6 +15,7 @@ import dice6 from '../css/dice_6.png';
         case 4:   return (<div><img src={dice4}/></div>);
         case 5:   return (<div><img src={dice5}/></div>);
         case 6:   return (<div><img src={dice6}/></div>);
+        case 8:   return (<div>Thank You!</div>);
         default:  return (null);
       }
     }

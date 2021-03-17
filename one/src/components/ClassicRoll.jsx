@@ -29,16 +29,25 @@ class ClassicRoll extends Component {
             color1: 'blue',
         });
     }
+    doFinish = () => {
+
+        this.setState({
+            random: 8,
+            color: 'white',
+            color1: 'blue',
+        });
+    }
     render() {
         console.log('RENDER <--- ClassicRoll')
         return (
             <div className="roll">
                 <div className="box" style={{ borderColor: this.state.color }} >
                     <MagicButton1 action={this.click} bname={'Click Here'}></MagicButton1>
-
+                    <button className="myButton" onClick={() => this.doFinish(8)}>Finish</button>
                 </div>
                 <div className="box" style={{ borderColor: this.state.color1 }}>
                 <Dice value={this.state.random}></Dice>
+                
                 </div>
             </div>
 

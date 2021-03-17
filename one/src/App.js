@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <BoxUniversalum color={'yellow'} number={38} boxStyle={normalStyle} />
+      <BoxUniversalum color={'yellow'} number={1} boxStyle={normalStyle} />
         <BoxUniversalum color={'green'} number={getRandomInt(10)} boxStyle={fancyStyle} />
         <ClassicBox button1Title={'Red'} button2Title={'Green'} />
         <ClassicRoll boxStyle={fancyStyle}/>
