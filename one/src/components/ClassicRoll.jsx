@@ -14,7 +14,7 @@ class ClassicRoll extends Component {
         super();
         this.state = {
             random: '',
-            color: 'yellow',
+            color: 'blue',
             color1: 'white'
 
         }
@@ -26,7 +26,7 @@ class ClassicRoll extends Component {
         this.setState({
             random: getRandomInt(6),
             color: 'white',
-            color1: 'yellow',
+            color1: 'blue',
         });
     }
     render() {
